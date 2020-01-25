@@ -8,11 +8,11 @@ Landing page of the website.
 
 
 --done-- * create landing page
---done-- * add header "flowerCatalog"
+--done-- * add title "flowerCatalog"
 --done-- * add images and water sprinkler gif 
 --done-- * add other flower's and guest book Links
 
-page for Abeliophyllum.
+Page for Abeliophyllum.
 
 * Image on left
 * Centered title at top
@@ -21,9 +21,23 @@ page for Abeliophyllum.
 * A link to download the content as pdf.
 
 --done-- * create Abeliophyllum page
---done-- * add header at center top
+--done-- * add title at center top
 --done-- * add link to go back to home page
 --done-- * add image
 --done-- * add paragraph
 --done-- * add link to download pdf
 
+Page for Ageratum.
+
+* Image on left
+* Centered title at top
+* A link to go back to home page
+* Formatted Content on the right of the image with information on the flower.
+* A link to download the content as pdf.
+
+--done-- * create Ageratum page
+--done-- * add title at center top
+--done-- * add link to go back to home page
+--done-- * add image
+--done-- * add paragraph
+--done-- * add link to download pdf
