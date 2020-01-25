@@ -29,6 +29,15 @@ h1 {
   width: 950px;
 }
 
+.jarBlock{
+  height: 80px;
+  width: 80px;
+}
+
+.jar{
+  padding-left: 70px;
+}
+
 .reference {
   padding-top: 150px;
   height: 300px;

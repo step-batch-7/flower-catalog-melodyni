@@ -1,5 +1,5 @@
 
-Landing page of the website.
+[A] Landing page of the website.
 
 * Title “Flower Catalog” at the top.
 * Image of flowers
@@ -11,8 +11,11 @@ Landing page of the website.
 --done-- * add title "flowerCatalog"
 --done-- * add images and water sprinkler gif 
 --done-- * add other flower's and guest book Links
+--done-- * watering jar should disappear on click
 
-Page for Abeliophyllum.
+-------------------------------------------------------------------------------
+
+[B] Page for Abeliophyllum.
 
 * Image on left
 * Centered title at top
@@ -27,7 +30,9 @@ Page for Abeliophyllum.
 --done-- * add paragraph
 --done-- * add link to download pdf
 
-Page for Ageratum.
+-------------------------------------------------------------------------------
+
+[C] Page for Ageratum.
 
 * Image on left
 * Centered title at top
@@ -42,8 +47,9 @@ Page for Ageratum.
 --done-- * add paragraph
 --done-- * add link to download pdf
 
+-------------------------------------------------------------------------------
 
-* Page for Guest book.
+[D] Page for Guest book.
 
 * Centered title at top
 * A link to go back to home page
@@ -56,4 +62,6 @@ Page for Ageratum.
 --done-- * add link to go back to home page
 --done-- * add name, comment box and a Submit button; 
 *  A list of comments by different guest until now with Date-time, Name and Comment of each ordered with latest comment in reverse chronological order.	
+
+-------------------------------------------------------------------------------
 
