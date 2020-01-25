@@ -18,9 +18,9 @@ h1 {
   padding-top: 20px;
   padding-left: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   height: 600px;
-  width: 1150px;
+  width: 1210px;
 }
 
 .homeFlower {
@@ -35,10 +35,22 @@ h1 {
   width: 200px;
 }
 
-.text {
+.textA {
   margin-top: 50px;
   margin-left: 30px;
   font-family: sans-serif;
   font-weight: 70;
   line-height: 30px;
 }
+
+.textB {
+  font-family: sans-serif;
+  font-weight: 70;
+}
+
+.commentSection{
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+
