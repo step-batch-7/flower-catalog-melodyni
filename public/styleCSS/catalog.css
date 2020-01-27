@@ -62,4 +62,26 @@ h1 {
   padding-left: 150px;
 }
 
+.commentBox{
+  height:150px;
+  width:900px;
+  border:1px solid;
+  display: flex;
+  justify-content: end;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 100;
+}
 
+.info{
+  height:40px;
+  width:750px;
+  border-bottom:1px solid ;
+  display: flex;
+  padding-top:10px;
+  justify-content: space-around;
+}
+
+.commentText{
+  padding: 25px;
+}
