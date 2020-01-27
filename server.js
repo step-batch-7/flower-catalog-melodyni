@@ -1,10 +1,11 @@
 const { Server } = require('net');
 const { Request } = require('./lib/request');
-const { handleGet } = require('./lib/handlers');
+const { handleGet, handlePost } = require('./lib/handlers');
+
 const pickHandler = function (method) {
   const handlers = {
-    GET: handleGet
-    // POST: handlePost
+    GET: handleGet,
+    POST: handlePost
   }
   return handlers[method];
 }
@@ -17,7 +18,7 @@ const handleConnection = function (socket) {
     const { method, url, protocol, headers, body } = Request.parse(text);
     const request = new Request(method, url, protocol, headers, body);
     const handler = pickHandler(request.method);
-    const response = handler(request.url);
+    const response = handler(request);
     response.writeTo(socket);
   });
 };
