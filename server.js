@@ -1,6 +1,6 @@
 const { Server } = require('net');
 const { Request } = require('./lib/request');
-const { handleGet, handlePost } = require('./lib/handlers');
+const { handleGet, handlePost } = require('./lib/app');
 
 const pickHandler = function (method) {
   const handlers = {
