@@ -65,3 +65,8 @@
 
 -------------------------------------------------------------------------------
 
+[D.1] A list of comments by different guest until now with Date-time, Name and Comment of each ordered with latest comment in reverse chronological order.	
+
+--done-- * add handler for post 
+--done-- * save comments into dataBase
+* render guest book according to the all comments
