@@ -1,0 +1,24 @@
+{
+  "name": "flower-catalog-melodyni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test":"eslint lib/*.js",
+    "lint": "curl https://raw.githubusercontent.com/blpabhishek/eslintrc-config/master/.eslintrc.json -o .eslintrc.json && eslint src test *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-batch-7/flower-catalog-melodyni.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/step-batch-7/flower-catalog-melodyni/issues"
+  },
+  "homepage": "https://github.com/step-batch-7/flower-catalog-melodyni#readme"
+}
