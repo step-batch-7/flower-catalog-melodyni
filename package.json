@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "export DATABASE=$(pwd)/test/resource/comment.json; nyc mocha",
+    "test": "export DATABASE=$(pwd)/test/resource/comments.json; nyc mocha",
     "start": "export DATABASE=$(pwd)/dataStore/comments.json; node server.js",
     "lint": "curl https://raw.githubusercontent.com/blpabhishek/eslintrc-config/master/.eslintrc.json -o .eslintrc.json && eslint src test *.js"
   },

@@ -1,4 +1,3 @@
-const config = {
-  DATABASE: process.env.DATA_STORE
+module.exports = {
+  DATABASE: process.env.DATABASE
 }
-module.exports = config;
