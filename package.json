@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test":"npx eslint lib/*.js server.js public/js/*.js",
+    "test": "export DATABASE=$(pwd)/test/resource/comment.json; nyc mocha",
+    "start": "export DATABASE=$(pwd)/dataStore/comments.json; node server.js",
     "lint": "curl https://raw.githubusercontent.com/blpabhishek/eslintrc-config/master/.eslintrc.json -o .eslintrc.json && eslint src test *.js"
   },
   "repository": {
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/step-batch-7/flower-catalog-melodyni/issues"
   },
-  "homepage": "https://github.com/step-batch-7/flower-catalog-melodyni#readme"
+  "homepage": "https://github.com/step-batch-7/flower-catalog-melodyni#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "supertest": "^4.0.2"
+  }
 }
